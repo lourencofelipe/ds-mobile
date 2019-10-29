@@ -9,9 +9,10 @@ class MyApp extends StatelessWidget {
       title: 'Login',
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
-        primarySwatch: Colors.orange,
+        primarySwatch: Colors.blueAccent,
       ),
       home: LoginPage(),
     );
   }
 }
+ 
