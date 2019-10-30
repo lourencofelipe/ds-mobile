@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
+import 'pages/login.page.dart';
 
-void main()  => runApp(MyApp());
+void main() => runApp(MyApp());
 
 class MyApp extends StatelessWidget {
   @override
@@ -9,10 +10,9 @@ class MyApp extends StatelessWidget {
       title: 'Login',
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
-        primarySwatch: Colors.blueAccent,
+        primarySwatch: Colors.blue,
       ),
       home: LoginPage(),
     );
   }
 }
- 

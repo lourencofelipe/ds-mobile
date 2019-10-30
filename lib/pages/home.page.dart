@@ -1,9 +1,8 @@
 import 'package:flutter/material.dart';
 
-Class Homepage extends StateLessWidget{
+class Homepage extends StatelessWidget {
   @override
-  Widget build(BuildContext context){
-    
+  Widget build(BuildContext context) {
+    return Container();
   }
 }
-
