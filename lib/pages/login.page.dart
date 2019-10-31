@@ -9,6 +9,10 @@ class LoginPage extends StatelessWidget {
         title: Text('Login'),
         centerTitle: true,
         backgroundColor: Colors.blue[900],
+        leading: Icon(
+          Icons.arrow_back_ios,
+          color: Colors.white38,
+        ),
       ),
       body: Container(
         padding: EdgeInsets.only(
@@ -27,6 +31,7 @@ class LoginPage extends StatelessWidget {
               textAlign: TextAlign.left,
               overflow: TextOverflow.ellipsis,
               style: TextStyle(
+                fontFamily: 'RobotoMono',
                 fontWeight: FontWeight.normal,
                 fontSize: 32,
                 color: Colors.white,
@@ -87,14 +92,17 @@ class LoginPage extends StatelessWidget {
             ),
             Container(
               height: 60,
-              alignment: Alignment.centerLeft,
+              alignment: Alignment.center,
               decoration: BoxDecoration(
+                borderRadius: BorderRadius.all(Radius.circular(3.0)),
                 color: Colors.white,
               ),
               child: SizedBox.expand(
                 child: FlatButton(
+                    shape: new RoundedRectangleBorder(
+                        borderRadius: new BorderRadius.circular(18.0)),
                     child: Row(
-                      mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                      mainAxisAlignment: MainAxisAlignment.center,
                       children: <Widget>[
                         Text(
                           "Acessar",
@@ -102,7 +110,7 @@ class LoginPage extends StatelessWidget {
                           style: TextStyle(
                             fontWeight: FontWeight.bold,
                             color: Colors.lightBlue,
-                            fontSize: 22,
+                            fontSize: 20,
                           ),
                         ),
                         Container(
@@ -110,7 +118,7 @@ class LoginPage extends StatelessWidget {
                             height: 28,
                             width: 28,
                           ),
-                        )
+                        ),
                       ],
                     ),
                     onPressed: () => {}),

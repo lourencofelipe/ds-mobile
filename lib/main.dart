@@ -9,9 +9,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Login',
       debugShowCheckedModeBanner: false,
-      theme: ThemeData(
-        primarySwatch: Colors.blue,
-      ),
+      theme: ThemeData(fontFamily: 'RobotoMono'),
       home: LoginPage(),
     );
   }
