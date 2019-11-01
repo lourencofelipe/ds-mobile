@@ -6,7 +6,6 @@ class LoginPage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Login'),
         centerTitle: true,
         backgroundColor: Colors.blue[900],
         leading: Icon(
