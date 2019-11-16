@@ -8,6 +8,7 @@ class LoginPage extends StatelessWidget {
       appBar: AppBar(
         centerTitle: true,
         backgroundColor: Colors.blue[900],
+        elevation: 0.0,
         leading: Icon(
           Icons.arrow_back_ios,
           color: Colors.white38,
