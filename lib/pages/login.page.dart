@@ -43,7 +43,7 @@ class LoginPage extends StatelessWidget {
             TextFormField(
               keyboardType: TextInputType.emailAddress,
               decoration: InputDecoration(
-                hintText: 'Digite seu e-mail',
+                hintText: 'Digite seu E-mail',
                 border: OutlineInputBorder(),
                 fillColor: Colors.white,
                 filled: true,
